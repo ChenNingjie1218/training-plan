@@ -7,7 +7,8 @@
 
 ## C++ 报告
 
-- [2023-张三-C++-Primer-Chapter-1](link)：C/C++ I/O 缓冲区设计。
+- [2023-陈宁杰-C++-Primer-Chapter-1](https://github.com/ChenNingjie1218/training-plan/blob/a82fe10515c20e095f91278429fac824548cb989/cpp/ppt/%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%80%E5%A7%8B.pdf
+)：C/C++ I/O 缓冲区设计。
 - [2023-李四-C++-Primer-Chapter-1](link)
 - [2023-宛浩宇-C++-Primer-Chapter-5](https://github.com/whyeinstein/ndssl_training_notes/blob/main/report/%E8%AF%AD%E5%8F%A5.pptx):Header guards and #pragma once
 
