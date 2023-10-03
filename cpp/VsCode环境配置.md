@@ -90,5 +90,19 @@ SET(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -pg")
 ```
 执行后会生成`gmon.out`
 ```
+结果到txt文件中:
 gprof gmon.out > ./doc/gprofresult.txt
 ```
+画图:
+- 安装`gprof2dot`:
+```
+pip install gprof2dot
+
+gprof myprogram gmon.out>output.txt
+gprof2dot output.txt>output.dot
+dot -Tpng output.dot -o output.png
+//上述三步可以合成一条命令
+gprof myprogram gmon.out | gprof2dot | dot -Tpng -o output.png
+```
+
+## perf
